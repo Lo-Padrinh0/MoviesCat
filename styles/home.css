@@ -30,18 +30,22 @@
     color: aqua;
 }
 
-/* localização */
-#lock{
-    border: 2px solid #5ecee2;
-    width: 60%;
+#carouselPc{
+    height: 300px;
 }
 
-#lock h4{
+/* localização */
+#lock{
+    width: 70%;
     font-family: zentai;
-    color: white;
+}
+
+#lockPc{
+    width: 40%;
+    font-family: zentai;
 }
 
 #maps{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
