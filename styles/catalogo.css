@@ -1,0 +1,114 @@
+@font-face {
+    font-family: zentai;
+    src: url(../font/Zenzai\ Itacha.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.h3{
+    font-family: zentai;
+    font-size: 25pt;
+}
+
+#nome{
+    font-family: zentai;
+    font-size: 28pt;
+}
+
+#catalogo a{
+    text-decoration: none;
+}
+
+.filmes{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card{
+    align-items: center;
+    padding: 5px;
+    color: rgb(0, 195, 255);
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+#card img{
+    width: 100%;
+    height: 100%;
+}
+
+#card ul{
+    border: none;
+}
+
+#card ul li{
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+#card button{
+    padding: 5px;
+    border: 2px solid white;
+    color: rgb(0, 255, 0);
+    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+}
+
+.text-success{
+    font-size: 15pt;
+}
+
+.poltrona-numero {
+    display: block; 
+    text-align: center; 
+}
+  
+.modal-title, #total{
+    color: #2C2F33;
+}
+  
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+#fechar{
+    color: rgb(0, 0, 0);
+    background-color: rgba(243, 41, 41, 0.911);
+    border: 1px solid black;
+}
+
+#comprar{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 255, 13);
+    border: 1px solid white;
+}
+
+.modal-content{
+    background-color: rgb(44, 110, 110);
+}
+
+.modal-footer{
+    justify-content: space-around;
+}

@@ -13,3 +13,21 @@ main{
 footer{
     background-color: #01090a8f;
 }
+
+/* localização */
+#lock{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 70%;
+    font-family: zentai;
+}
+
+#lockPc{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 40%;
+    font-family: zentai;
+}
+
+#maps{
+    width: 100%;
+    height: auto;
+}

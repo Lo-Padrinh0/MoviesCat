@@ -1,0 +1,14 @@
+@font-face {
+    font-family: zentai;
+    src: url(../font/Zenzai\ Itacha.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#nome{
+    font-family: zentai;
+    font-size: 28pt;
+}

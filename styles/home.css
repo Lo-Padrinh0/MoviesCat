@@ -3,12 +3,21 @@
     src: url(../font/Zenzai\ Itacha.ttf);
 }
 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 #nome{
     font-family: zentai;
     font-size: 28pt;
 }
 
-.filmes{
+#previasLista a{
+    text-decoration: none;
+}
+
+.previasLista{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,20 +41,4 @@
 
 #carouselPc{
     height: 300px;
-}
-
-/* localização */
-#lock{
-    width: 70%;
-    font-family: zentai;
-}
-
-#lockPc{
-    width: 40%;
-    font-family: zentai;
-}
-
-#maps{
-    width: 100%;
-    height: auto;
 }

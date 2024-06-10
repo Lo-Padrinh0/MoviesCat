@@ -1,5 +1,6 @@
-class Filmes {
-    constructor (nome, descricao,valor,img){
+// home
+class Previas {
+    constructor (nome,descricao,valor,img){
         this.nome = nome,
         this.descricao = descricao,
         this.valor = valor,
@@ -7,15 +8,16 @@ class Filmes {
     }
 }
 
-var catalogo = []
+var previasLista = []
 
-catalogo.push(new Filmes("Avengers","Fantasia e Ação!",`R$15,50`,"Vingadores.jpg"))
-catalogo.push(new Filmes("Pânico","Terror e Horror!",`R$20,99`,"panico.jpg"))
-catalogo.push(new Filmes("DeadPool","Ação e Comedia",`R$18,99`,"deadpool.jpg"))
+previasLista.push(new Previas("Avengers","Fantasia e Ação!",`R$15,50`,"Vingadores.jpg"))
+previasLista.push(new Previas("Pânico","Terror e Horror!",`R$20,99`,"panico.jpg"))
+previasLista.push(new Previas("DeadPool","Ação e Comedia",`R$18,99`,"deadpool.jpg"))
 
-catalogo.forEach((elemento) => {
-    document.querySelector("#catalogo").innerHTML += `
-        <div style="background-image: url(images/${elemento.img});" class="card filmes" style="width: 18rem;">
+previasLista.forEach((elemento) => {
+    document.querySelector("#previasLista").innerHTML += `
+    <a href="catalogo.html">
+        <div style="background-image: url(images/${elemento.img});" class="card previasLista" style="width: 18rem;">
             <div class="card-body d-flex flex-column align-items-center">
                 <div class="descricao d-flex flex-column align-items-center">
                     <h5 class="card-title">${elemento.nome}</h5>
@@ -27,5 +29,7 @@ catalogo.forEach((elemento) => {
                 </div>
             </div>
         </div>
-    `
+    </a>`
 })
+
+// poltronas
