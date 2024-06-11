@@ -30,12 +30,12 @@ catalogo.forEach((elemento) => {
             <li class="list-group-item">${elemento.horario}</li>
             <li class="text-success list-group-item">${elemento.valor}</li>
         </ul>
-        <div id="button" class="card-body">
+        <div id="button" class="card-body">                                         
             <button type="button">COMPRAR</button>
         </div>
     </div>
-    `
-})
+    `                                   
+})                     
 
 // Modal Assentos
 $(document).ready(function() {
