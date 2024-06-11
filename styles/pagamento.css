@@ -12,3 +12,36 @@
     font-family: zentai;
     font-size: 28pt;
 }
+
+/* PAGAMENTO MAIN */
+
+#pagamento{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pagamento h2{
+    font-family: zentai;
+    color: white;
+}
+
+#Pagamento{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pagamento button{
+    width: 200px;
+    height: 280px;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid var(--corMarrom);
+    border-radius: 2px;
+}
